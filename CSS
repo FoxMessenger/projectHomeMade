@@ -1,0 +1,173 @@
+#wrapper {
+	margin: 0;
+	width: 100%;
+	overflow: hidden;
+}
+
+.bodyMain {
+	color: white; 
+	font-family: "Lato", serif;
+	background-image: url("/Users/liamfox/Documents/Projects/PHM/SRC/Background-Main.jpg");
+	background-color: black;
+}
+
+
+a.link {
+	text-decoration: none;
+	color: white;
+}
+
+a.visited {
+	text-decoration: none;
+	color: white;
+}
+
+a.hover {
+	color: #D3D3D3;
+}
+
+.foot {
+	width: 100%;
+	position: absolute;
+	bottom: 30px;
+}
+
+.foot-signUp {
+	position: relative;
+}
+
+/* ----- Main Page/Sign Up/Log In -----*/
+img.openingLogo {
+	display: block;
+	width: 400px;
+	margin: 190px auto 0 auto;
+}
+/* ----- Main Page -----*/
+.start {
+	position: relative;
+	font-size: 40px;
+	padding: 0 0 0 10%;
+}
+
+.start:hover {
+	transition: opacity 0.5s;
+	opacity: 0.5;
+}
+
+.logIn {
+	font-size: 25px;
+}
+
+.signUp {
+	font-size: 25px;
+}
+
+.foot-body {
+	width: 90%;
+	margin: 0 auto 0 auto;
+	opacity: 1;
+}
+
+/* hover fade transition for footer */
+.foot-body > *:first-child:hover {
+	transition: opacity 0.5s;
+	opacity: 0.5;
+}
+
+.foot-body > *:last-child:hover {
+	transition: opacity 0.5s;
+	opacity: 0.5;
+}
+
+/* footer position */
+.foot-body > *:first-child {
+	float: left;
+}
+
+.foot-body > *:last-child {
+	float: right;
+}
+
+/* ----- Login Page -----*/
+.barLine  {
+	margin: 0 auto 0 auto;
+	width: 400px;
+}
+
+.usernamePass {
+	font-size: 30px;
+	opacity: 1;
+}
+
+.usernamePass:hover {
+	transition: opacity 0.5s;
+	opacity: 0.5;
+}
+
+.foot-login {
+	width: 90%;
+	text-align: center;
+	margin: 100px auto;
+}
+
+.foot-login > *:first-child {
+	float: top;
+	line-height: 60px;
+}
+
+.foot-login > *:last-child {
+	float: bottom;
+}
+
+/* ----- Home Page -----*/
+
+.bodyHome {
+	color: white; 
+	font-family: "Lato", serif;
+	background-image: url("/Users/liamfox/Documents/Projects/PHM/SRC/Background-1.jpg");
+	background-color: black;
+}
+
+.homeText {
+	margin-top: 200px;
+	text-align: left;
+	font-size: 30px;
+}
+
+.homeText:hover {
+	opacity: 0.5;
+	transition: opacity 0.2s;
+}
+
+.barLine2  {
+	float: left;
+	margin: auto 0 auto 0;
+	width: 300px;
+}
+
+img.fork {
+	width: 100px;
+	display: block;
+	margin: 30px auto 0 auto;
+}
+
+/* ----- Settings Button and Drop Down Menu -----*/
+
+
+.setting-content > a{
+	text-decoration: none;
+	display:none;
+	position: absolute;
+}
+
+.settingMenu {
+	position: relative;
+	display: inline-block;
+}
+
+.dropbtn {
+	cursor: pointer;
+	color: white;
+	
+}
+
