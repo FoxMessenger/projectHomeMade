@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="ProjectHomeMade.css">
+	<link href='https://fonts.googleapis.com/css?family=Lato:100,100italic|Work+Sans:100' rel='stylesheet' type='text/css'>
+	<title>Project Home Made</title>
+	
+	<script type="text/javascript">
+		//this should toggle the menu button
+		function dropdownMenu() {
+			document.getElementById("myDropdown").classList.toggle("show");
+		}
+	</script>
+	
+</head>
+
+<body class="bodyHome">
+	
+	<div class="settingMenu">
+		<button href="javascript:void(0)" class="dropbtn" onclick="dropdownMenu()"><img class="fork" src="/Users/liamfox/Documents/Projects/PHM/SRC/fork.png" alt="settings and menu"></button>
+		<div id="myDropdown" class="setting-content">
+			<ul>
+				<li>'log out'</li>
+				<li>'USERNAME'</li>
+				<li>'change password'</li>
+				<li>'my recipes'</li>
+				<li>'terms of use'</li>
+				<li>'need help/feedback'</li>
+			</ul>
+		</div> <!-- END .settingsMenu -->
+	</div> <!-- END .setting-content -->
+	
+	<div class="foot-signUp">
+	 	<div class="foot-login">	
+		 	<div class="homeText" alt="username">
+		 		<a style="text-decoration: none; color: white;" href="#">add ingredient</a>
+		 	</div>
+		 	<a>
+				<img class="barLine2" src="/Users/liamfox/Documents/Projects/PHM/SRC/line0.png">
+			</a>
+</body>
+</html>
